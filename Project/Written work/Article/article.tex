@@ -1,0 +1,77 @@
+% Template for ICASSP-2010 paper; to be used with:
+%          mlspconf.sty  - ICASSP/ICIP LaTeX style file adapted for MLSP, and
+%          IEEEbib.bst - IEEE bibliography style file.
+% --------------------------------------------------------------------------
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{02459}
+\usepackage[english]{babel}
+\usepackage{todonotes}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+
+\usepackage{sectsty}
+
+%\sectionfont{\fontsize{12}{15}\selectfont}
+%\subsectionfont{\Large \selectfont}
+%\subsubsectionfont{\large \selectfont}
+
+\toappear{02456 Deep Learning, DTU Department of Applied Mathematics and Computer Science, Fall 2017}
+
+
+% Example definitions.
+% --------------------
+\def\x{{\mathbf x}}
+\def\L{{\cal L}}
+
+% Title.
+% ------
+\title{Deep Neural Networks for Interpretable Analysis of EEG Sleep Stage Scoring}
+%
+% Single address.
+% ---------------
+\name{Anders Launer Baek}
+\address{Technical University of Denmark \\ s160159@student.dtu.dk}
+%
+% For example:
+% ------------
+%\address{School\\
+%	Department\\
+%	Address}
+%
+% Two addresses (uncomment and modify for two-address case).
+% ----------------------------------------------------------
+%\twoauthors
+%  {A. Author-one, B. Author-two\sthanks{Thanks to XYZ agency for funding.}}
+%	{School A-B\\
+%	Department A-B\\
+%	Address A-B}
+%  {C. Author-three, D. Author-four\sthanks{The fourth author performed the work
+%	while at ...}}
+%	{School C-D\\
+%	Department C-D\\
+%	Address C-D}
+%
+\begin{document}
+
+\maketitle
+\input{contents/abstract}
+\input{contents/introduction}
+\input{contents/materials_and_methods}
+\input{contents/results}
+\input{contents/discussion}
+\input{contents/conclusion}
+\input{contents/acknowledgment}
+%\input{contents/references}
+\bibliographystyle{IEEEbib}
+\label{sec:ref}
+\bibliography{refs}
+%\input{contents/appendix}
+
+
+
+\end{document}
